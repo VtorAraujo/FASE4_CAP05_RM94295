@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body {height:100%;}
+
+body {
+	background-color: #050926;
+   }
+
+#texto{ /*form*/
+
+	color: #ffffff;
+	font-size:15px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#texto input.botao{
+	background: #0855A3;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 2px;
+	margin-left: 0px;
+    text-decoration: none;
+	width: 280px;
+	height:40px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+h1{
+	color: #ffffff;
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+	margin-top:10px;
+	margin-left: 150px;
+}
+
+h2{
+	color: #ffffff;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+	margin-top: 0px;
+	margin-right: 220px;
+}
+
+h3{
+	color: #ffffff;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+	margin-top:-10px;
+	cursor: pointer;
+}
+
+.campo_email{
+	background: #D5E0DB;
+    color: #7C8582;
+    font-size: 17px;
+    padding: 2px;
+    margin-top:-34px;
+    text-decoration: none;
+	width: 280px;
+	height:30px;
+	border-radius: 10px;
+}
+
+.campo_senha{
+	background: #D5E0DB;
+    color: #7C8582;
+    font-size: 17px;
+    padding: 2px;
+    margin-top:-53px;
+    text-decoration: none;
+	width: 280px;
+	height:30px;
+	border-radius: 10px;
+}
+
+.img_logo{
+	width: 280px;
+	height:170px;
+	margin-left: -10px;
+	top:0;
+}
+
+.img_facebook{
+	width: 40px;
+	height:40px;
+	margin-right: 70px;
+	margin-top: 20px;
+}
+
+.img_google{
+	width: 40px;
+	height:40px;
+	margin-left: -10px;
+	margin-top: 20px;
+}
+
+#area{
+  background: #1B2C46;
+  width: 400;
+  height: 450;
+  border-radius: 10%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: #D5E0DB;
+}
+
+.botao_login{
+	background: #0855A3;
+	color: #D5E0DB;
+	font-size: 17px;
+	width: 150px;
+	height:30px;
+	margin-top: -5%;
+	margin-left: 260px;	
+	border-radius: 40px;
+	border-color: #0855A3;
+}
+
+.botao_cadastro{
+	background: #050926;
+	color: #D5E0DB;
+	font-size: 17px;
+	width: 150px;
+	height:30px;
+	margin-left: -30px;	
+	margin-top: -5%;
+	border-radius: 40px;
+	border-color: #62a4e6;
+
+}
+
+@media (min-width: 768px) and (max-width:1023px){
+
+	#area{
+		width: 850;
+		height: 800;
+		top: 55%;
+		left: 50%;
+	  }
+
+	  .botao_login{
+		font-size: 40px;
+		width: 196px;
+    	height: 59px;
+		margin-top: 207px;
+    	margin-left: -48px;
+	}
+	
+	.botao_cadastro{
+		font-size: 40px;
+		width: 196px;
+    	height: 59px;
+		margin-left: -39px;	
+		margin-top: -5%;
+	}
+	h1{
+		font-size: 40px;
+		margin-top: 42px;
+		margin-left: 350px;
+	}
+	h2{
+		font-size: 40px;
+		margin-top: 14px;
+		margin-left: 160px;
+		width: 314px;
+		height: 39px;
+	}
+	
+	h3{
+		font-size: 30px;
+		margin-top: 16px;
+		margin-right: 47px;
+	}
+	
+	.campo_email{
+		font-size: 17px;
+		margin-top:-34px;
+		margin-right: 64px;
+		width: 280px;
+		height:30px;
+	}
+	
+	.campo_senha{
+		font-size: 17px;
+		margin-top:-64px;
+		margin-right: 64px;
+		width: 280px;
+		height:30px;
+	}
+	#texto input.botao{
+		font-size: 40px;
+		margin-left: 0px;
+		width: 314px;
+    	height: 59px;
+	}
+	.img_facebook{
+		width: 60px;
+		height: 60px;
+		margin-right: 125px;
+		margin-top: 55px;
+	}
+	
+	.img_google{
+		width: 60px;
+		height: 60px;
+		margin-left: -28px;
+		margin-top: 20px;
+	}
+	.img_logo{
+		width: 356px;
+		height: 218px;
+		margin-left: -10px;
+		top:0;
+	}
+
+}
+
